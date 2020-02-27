@@ -1,5 +1,5 @@
 function buscarCep(cep) {
-    var script = document.createElement('script');
+    const script = document.createElement('script');
 
     script.src = 'https://viacep.com.br/ws/'+ cep + '/json/?callback=myCallback'
     document.body.appendChild(script);

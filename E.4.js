@@ -16,3 +16,4 @@ function isNumberOrSpacebar(num) {
 
     return !isNaN(parseFloat(num)) && isFinite(num)
 }
+removerNumeros("Olá 250 teste 2 olá 15")
